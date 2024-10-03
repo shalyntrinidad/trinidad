@@ -1,0 +1,178 @@
+/* style.css */
+
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background: #ffffff;
+    margin-bottom: 20px;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ff7e5f;
+    border-radius: 5px;
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #feb47b;
+    background-color: #fff8e1;
+    outline: none;
+}
+
+input[type="button"],
+input[type="reset"] {
+    background-color: #ff7e5f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+input[type="button"]:hover,
+input[type="reset"]:hover {
+    background-color: #feb47b;
+    transform: scale(1.05);
+}
+
+#pMsg {
+    text-align: center;
+    color: #ff0000;
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f2d9ef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for the table and header */
+.container {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center; /* Center-align text in the container */
+}
+
+/* Header styling */
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px; /* Space between header and table */
+}
+
+/* Table styling */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 10px; /* Space between table and additional info */
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left; /* Align text to the left in table cells */
+}
+
+label {
+    font-size: 16px;
+    color: black;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    text-align: center;
+}
+
+input[disabled] {
+    background: #e6e6e6;
+    color: #ffffff;
+}
+
+/* Button styling */
+.button-container {
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    gap: 10px; /* Space between buttons */
+}
+
+.button {
+    background: #d8e5f7;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.button:hover {
+    background: #45a049;
+}
+
+.button:active {
+    transform: scale(0.98);
+}
+
+/* Additional information styling */
+p {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+}
